@@ -1,0 +1,783 @@
+
+body {
+    background-color:#ffffff;
+    font-family: 'Merriweather', serif;
+    color:#2D1A09;
+}
+.nav-home {
+    background-color:#2D1A09;
+}
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+.btn-login {
+    background-color: #FF9317;
+    color: #ffffff;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    text-align: center;
+    
+    &:hover {
+        background-color: #F2A246;
+        color: #ffffff;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #ffffff;
+
+            &.active {
+                font-weight: bold;
+                color: #ffffff !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+margin-left: 30px !important;
+}
+
+// Header
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/Poster\ Home\ Pge.jpg');
+    background-size: cover;
+    h1,p {
+        color: #ffffff;
+    }
+
+    h1 {
+        font-family:'Merriweather', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .btn-get-started {
+        background-color: #FF9317;
+        color: #ffffff;
+        font-weight: bold;
+
+        &:hover {
+            background-color: #F2A246;
+            color: #ffffff;
+        }
+    }
+}
+
+// statistics
+.section-stats {
+    margin-top: -50px;
+    .stats-detail1 {
+        padding-top: 15px;
+        background-color: #ffffff;
+        padding-left: 40px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .stats-detail2 {
+        padding-top: 15px;
+        background-color: #ffffff;
+        padding-left: 40px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .stats-detail {
+        padding-top: 15px;
+        background-color: #ffffff;
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 35px;
+        font-family: 'Overpass', sans-serif;
+        font-weight: bold;
+    }
+}
+
+// Trip Popular
+
+.section-popular {
+    min-height: 750px;
+    background-color: #2D1A09;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-popular-heading {
+        margin-top: 110px;
+
+        h2,p {
+            color: #ffffff;
+            font-family:'Merriweather', serif;
+        }
+        h2 {
+            font-weight: bold;
+            font-size: 40px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 400px;
+            min-width: 250px;
+            background-color: transparent;
+            color: transparent;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 50px;
+            margin-top: -240px;
+            border-radius: 7px;
+
+        }
+        .travel-country {
+            font-size: 15px;
+            color: #ffffff;
+        }
+
+        .travel-location {
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .travel-button {
+            .btn-travel-details {
+                background-color: #FF9317;
+                color: #ffffff;
+
+                &:hover {
+                    background-color: #F2A246;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+// Our Networks 
+.section-networks {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+    h2 {
+        font-weight: bold;
+        color: black;
+        font-family: 'Merriweather', serif;
+        margin-top: 47px;
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+.section-testimonial-heading {
+    background-color: #F2EFEC;
+    padding-top: 50px;
+    min-height: 950px;
+
+    h2 {
+        color: black;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+// Testimonial 
+.section-testimonial-content {
+    margin-top: -700px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 380px;
+        }
+
+        h3 {
+            font-size: 25px;
+            font-family: 'Merriweather', serif;
+        }
+        .testimonial {
+            font-size: 20px;
+            font-family: 'Merriweather', serif;
+            margin-bottom: 70px;
+            color: #564A4A;
+            min-height: 180px;
+        }
+
+        .trip-to {
+            font-size: 20px;
+            color: #564A4A;
+        }
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+
+        }
+    }
+
+    .btn-get-started1 {
+        background-color: #FF9317;
+        color: #ffffff;
+        font-weight: bold;
+
+        &:hover {
+            background-color: #F2A246;
+            color: #ffffff;
+        }
+    }
+
+    .btn-need-help {
+        background-color: transparent;
+        color: #FF9317;
+        font-weight: bold;
+        border-color: #FF9317;
+        border-width: 1.5px;;
+
+
+        &:hover {
+            background-color: #ffffff;
+            color: #FF9317;
+        }
+    }
+}
+
+// Footer 
+
+.section-footer {
+    background-color: #2D1A09;
+    .jarak-aviv {
+        margin-top: 15px;
+    }
+    .quotes-aviv {
+        margin-right: 100px;
+        margin-left: 30px;
+        h5 {
+            color: white;
+            font-family: 'Leckerli One', cursive;
+            font-size: 30px;
+        }
+        h6 {
+            color: white;
+            font-family: 'Leckerli One', cursive;
+        }
+    }
+    h5 {
+        color: white;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+    }
+    a {
+        color: white;
+        font-family: 'Merriweather', serif;
+    }
+}
+
+// asal
+.footer-aviv {
+    color: white;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+// navbar Details 
+.nav-aviv {
+    background-color: #2D1A09 !important;
+}
+
+// Header Details 
+.section-details-header {
+    min-height: 310px;
+    background: #F2EFEC;
+}
+// Details Content 
+.section-details-content {
+    margin-top: -250px;
+    min-height: 100vh;
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .breadcrumb-item {
+        &.active {
+            font-weight: bold;
+            color: #2D1A09;
+
+        }
+    }
+
+// Card Details 
+    .card-details {
+        padding: 30px;
+        border-radius: 11px;
+        margin-bottom: 100px;
+        
+
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+            color:#2D1A09;
+        }
+        .chekout-informations {
+            .chekout-travel {
+                color: #FEFFF3 !important;
+            }
+            }
+        .btn-add-now {
+            background-color: #ffffff;
+            font-family: 'Merriweather', serif;
+            border-width: 2px;
+            border-color: #FF9317;
+            color: #FF9317;
+            font-weight: bold;
+
+            &:hover {
+                background-color:#FEFFF3;
+                color: #FF9317;
+            }
+        }
+        
+        .gj-datepicker {
+            .datepicker {
+                border-right: 0px;
+            }
+            .input-group-append {
+                .btn {
+                    padding-right: 30px;
+                }
+            }
+        }
+        .disclaimer {
+            background-color: #F2EFEC;
+            font-family: 'Merriweather', serif;
+            border-radius: 10px;
+            min-height: auto;
+            h3 {
+                font-family: 'Merriweather', serif;
+                font-weight: bold;
+                padding-left: 20px;
+                padding-top: 10px;
+                font-size: 15px;
+
+            }
+            p {
+                font-family: 'Merriweather', serif;
+                padding-left: 20px;
+                padding-bottom: 10px;
+                font-size: 10px;
+                font-weight: lighter;
+            }
+        }
+
+
+        
+    }
+
+    .card-right {
+        border-radius: 11px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-bottom: 0px;
+        padding: 30px;
+        font-size: 15px;
+        
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        th {
+            font-size: 15px;
+        }
+        td {
+            font-size: 15px;
+            .text-brown {
+                color: #2D1A09;
+                font-weight: bolder;
+            }
+            .text-orange {
+                color: #FF9317;
+                font-weight: bolder;
+            }
+        }
+        p {
+            font-size: 13px;
+            font-weight: lighter;
+        }
+        
+        .bank {
+            .bank-item {
+                h3 {
+                    font-size: 15px;
+                    margin-bottom: 0px;
+
+                }
+                p {
+                    margin-bottom: 0px;
+                }
+                .bank-image {
+                    width: 45px;
+                    height: 45px;
+                    float: left;
+                }
+                .description {
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+                    h3 {
+                        font-weight: bold;
+                        font-size: 15px;
+                        color: #2D1A09;
+                    }
+                    p {
+                        font-weight: normal;
+                        color: #2D1A09;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    .features {
+        margin-top: 20px;
+        h3 {
+            font-size: 18px;
+            color: #2D1A09;
+            margin-bottom: 0px;
+            font-weight: bold;
+        }
+
+
+        p {
+            margin-bottom: 0px;
+            font-size: 15px;
+        }
+
+
+        .description {
+            margin-left: 10px;
+            overflow: hidden;
+            float: left;
+        }
+
+        .features-image {
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
+        
+    }
+
+    // Gallery photos Details 
+.gallery {
+    .xzoom-container {
+        display: block;
+
+        .xzoom {
+
+            width: 100%;
+            box-shadow: none;
+            margin-bottom: 10px;
+        }
+
+
+        .xactive {
+            border: 4px solid #2D1A09;
+            box-shadow: none;
+        }
+
+    }
+
+    .xzoom-gallery {
+        min-width: 162px;
+        float: left;
+    }
+
+}
+
+// Members Information 
+.members {
+    .member-image {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+.join-container {
+    margin-top: -16px;
+}
+
+.btn-join-now {
+    background-color: #FF9317;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 0%;
+
+
+    &:hover {
+        background-color:#FFAA48;
+    color: #ffffff;
+    }
+}
+
+
+
+
+
+}
+
+
+
+.warna-tulisan {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.section-footer1 {
+    background-color: #2D1A09;
+    margin-top: -200px;
+    .jarak-aviv {
+        margin-top: 15px;
+    }
+    .quotes-aviv {
+        margin-right: 100px;
+        margin-left: 30px;
+        h5 {
+            color: white;
+            font-family: 'Leckerli One', cursive;
+            font-size: 30px;
+        }
+        h6 {
+            color: white;
+            font-family: 'Leckerli One', cursive;
+        }
+    }
+    h5 {
+        color: white;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+    }
+    a {
+        color: white;
+        font-family: 'Merriweather', serif;
+    }
+}
+
+// Email Icon
+
+.email-logo {
+    height: 500px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.sambutan {
+    h2 {
+        font-weight: bold;
+    }
+    .btn-home-page {
+        background-color: #FF9317;
+        color: #ffffff;
+        font-weight: bold;
+        margin-bottom: 30px;
+
+        &:hover {
+            background-color:#FFAA48;
+            color: #ffffff;
+        }
+    }
+}
+
+.main-color {
+    background-color: #2D1A09;
+}
+
+// e-ticket 
+.card-e-ticket {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color:  #2D1A09;
+    h2 {
+        font-weight: bold;
+        font-size: 25px;
+        
+    }
+    .main-head {
+        font-weight: bold;
+        margin-top: 30px;
+        font-family: 'Leckerli One', cursive;
+        font-size: 30px;
+        
+    }
+    h1 {
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .gallery-ticket {
+        margin-bottom: 30px;
+        .ticket-photo {
+            height: 750px;
+            width: 950px;
+        }
+    }
+    .nama-orang {
+        p {
+            margin-left: 75px;
+        }
+        h2 {
+            font-weight: bold;
+            font-size: 25px;
+            margin-left: 75px;
+        }
+    }
+
+    .member-ticket1 {
+        h2 {
+            margin-left: 75px;
+        }
+        
+    }
+    .data-orang {
+        margin-left: 75px;
+        margin-bottom: 30px;
+    th {
+        font-weight: normal;
+    }
+    }
+    .member-ticket2 {
+        margin-left: 75px;
+    }
+    .data-travel {
+        margin-left: 75px;
+        margin-bottom: 30px;
+        th {
+            font-weight: normal;
+        }
+    }
+
+    .btn-ibu {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        background-color: #FF9317;
+        color: #ffffff;
+        font-weight: bold;
+
+        &:hover {
+            background-color:#FFAA48;
+            color: #ffffff;
+        }
+    }
+}
+
+.main-warna {
+    background-color: #2D1A09;
+.card-photo {
+    .gallery-gambar-login {
+        margin-left: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        h1 {
+            font-weight: bold;
+            font-size: 50px;
+            
+        }
+        .login-photo1 {
+            margin-bottom: 10px;
+        }
+        .login-photo2 {
+            margin-left: 15px;
+            margin-right: 20px;
+            margin-bottom:20px;
+        }
+        .login-photo3 {
+            margin-bottom: 20px;
+        }
+        .login-photo4 {
+            margin-left: 15px;
+            margin-right: 20px;
+        }
+        .login-photo5 {
+            margin-right: 20px;
+        }
+        .login-photo6 {
+            margin-right: 20px;
+        }
+    }
+
+}
+}
+
+.kartu-masuk {
+    margin-left: -250px;
+    margin-top: 27%;
+    .card-login {
+        
+        h1 {
+        margin-top: 30px;
+        font-family: 'Leckerli One', cursive;
+        font-weight: bold;
+        font-size: 40px;
+        }
+        h2 {
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+            font-size: 25px;
+            margin-left: 30px;
+        }
+        .form-inline {
+            margin-left: 30px;
+        }
+        .btn-login-account {
+            background-color: #FF9317;
+            color: #ffffff;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-bottom: 0px;
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+        .lupa-kode {
+            margin-left: 33px;
+            font-size: 12px;
+        }
+    }
+}

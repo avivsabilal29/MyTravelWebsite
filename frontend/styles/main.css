@@ -1,0 +1,772 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Merriweather', serif;
+  color: #2D1A09;
+}
+
+.nav-home {
+  background-color: #2D1A09;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-login {
+  background-color: #FF9317;
+  color: #ffffff;
+  font-weight: bold;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn-login:hover {
+  background-color: #F2A246;
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.btn-navbar-right {
+  margin-left: 30px !important;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/Poster Home Pge.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #ffffff;
+}
+
+header h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+header .btn-get-started {
+  background-color: #FF9317;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+header .btn-get-started:hover {
+  background-color: #F2A246;
+  color: #ffffff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail1 {
+  padding-top: 15px;
+  background-color: #ffffff;
+  padding-left: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.section-stats .stats-detail2 {
+  padding-top: 15px;
+  background-color: #ffffff;
+  padding-left: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #ffffff;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: bold;
+}
+
+.section-popular {
+  min-height: 750px;
+  background-color: #2D1A09;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 110px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 400px;
+  min-width: 250px;
+  background-color: transparent;
+  color: transparent;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 50px;
+  margin-top: -240px;
+  border-radius: 7px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #FF9317;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #F2A246;
+  color: #ffffff;
+}
+
+.section-networks {
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-weight: bold;
+  color: black;
+  font-family: 'Merriweather', serif;
+  margin-top: 47px;
+  font-size: 40px;
+}
+
+.section-networks p {
+  font-size: 20px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background-color: #F2EFEC;
+  padding-top: 50px;
+  min-height: 950px;
+}
+
+.section-testimonial-heading h2 {
+  color: black;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.section-testimonial-heading p {
+  font-size: 20px;
+}
+
+.section-testimonial-content {
+  margin-top: -700px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 70px;
+  color: #564A4A;
+  min-height: 180px;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-size: 20px;
+  color: #564A4A;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-get-started1 {
+  background-color: #FF9317;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.section-testimonial-content .btn-get-started1:hover {
+  background-color: #F2A246;
+  color: #ffffff;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: transparent;
+  color: #FF9317;
+  font-weight: bold;
+  border-color: #FF9317;
+  border-width: 1.5px;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #ffffff;
+  color: #FF9317;
+}
+
+.section-footer {
+  background-color: #2D1A09;
+}
+
+.section-footer .jarak-aviv {
+  margin-top: 15px;
+}
+
+.section-footer .quotes-aviv {
+  margin-right: 100px;
+  margin-left: 30px;
+}
+
+.section-footer .quotes-aviv h5 {
+  color: white;
+  font-family: 'Leckerli One', cursive;
+  font-size: 30px;
+}
+
+.section-footer .quotes-aviv h6 {
+  color: white;
+  font-family: 'Leckerli One', cursive;
+}
+
+.section-footer h5 {
+  color: white;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+
+.section-footer a {
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.footer-aviv {
+  color: white;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.nav-aviv {
+  background-color: #2D1A09 !important;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #F2EFEC;
+}
+
+.section-details-content {
+  margin-top: -250px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #2D1A09;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+  margin-bottom: 100px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #2D1A09;
+}
+
+.section-details-content .card-details .chekout-informations .chekout-travel {
+  color: #FEFFF3 !important;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: #ffffff;
+  font-family: 'Merriweather', serif;
+  border-width: 2px;
+  border-color: #FF9317;
+  color: #FF9317;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #FEFFF3;
+  color: #FF9317;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0px;
+}
+
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .card-details .disclaimer {
+  background-color: #F2EFEC;
+  font-family: 'Merriweather', serif;
+  border-radius: 10px;
+  min-height: auto;
+}
+
+.section-details-content .card-details .disclaimer h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.section-details-content .card-details .disclaimer p {
+  font-family: 'Merriweather', serif;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.section-details-content .card-right {
+  border-radius: 11px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-bottom: 0px;
+  padding: 30px;
+  font-size: 15px;
+}
+
+.section-details-content .card-right h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-details-content .card-right th {
+  font-size: 15px;
+}
+
+.section-details-content .card-right td {
+  font-size: 15px;
+}
+
+.section-details-content .card-right td .text-brown {
+  color: #2D1A09;
+  font-weight: bolder;
+}
+
+.section-details-content .card-right td .text-orange {
+  color: #FF9317;
+  font-weight: bolder;
+}
+
+.section-details-content .card-right p {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.section-details-content .card-right .bank .bank-item h3 {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.section-details-content .card-right .bank .bank-item p {
+  margin-bottom: 0px;
+}
+
+.section-details-content .card-right .bank .bank-item .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-right .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-right .bank .bank-item .description h3 {
+  font-weight: bold;
+  font-size: 15px;
+  color: #2D1A09;
+}
+
+.section-details-content .card-right .bank .bank-item .description p {
+  font-weight: normal;
+  color: #2D1A09;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #2D1A09;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #2D1A09;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .gallery .xzoom-gallery {
+  min-width: 162px;
+  float: left;
+}
+
+.section-details-content .members .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #FF9317;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 0%;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #FFAA48;
+  color: #ffffff;
+}
+
+.warna-tulisan {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.section-footer1 {
+  background-color: #2D1A09;
+  margin-top: -200px;
+}
+
+.section-footer1 .jarak-aviv {
+  margin-top: 15px;
+}
+
+.section-footer1 .quotes-aviv {
+  margin-right: 100px;
+  margin-left: 30px;
+}
+
+.section-footer1 .quotes-aviv h5 {
+  color: white;
+  font-family: 'Leckerli One', cursive;
+  font-size: 30px;
+}
+
+.section-footer1 .quotes-aviv h6 {
+  color: white;
+  font-family: 'Leckerli One', cursive;
+}
+
+.section-footer1 h5 {
+  color: white;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+
+.section-footer1 a {
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.email-logo {
+  height: 500px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.sambutan h2 {
+  font-weight: bold;
+}
+
+.sambutan .btn-home-page {
+  background-color: #FF9317;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sambutan .btn-home-page:hover {
+  background-color: #FFAA48;
+  color: #ffffff;
+}
+
+.main-color {
+  background-color: #2D1A09;
+}
+
+.card-e-ticket {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #2D1A09;
+}
+
+.card-e-ticket h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.card-e-ticket .main-head {
+  font-weight: bold;
+  margin-top: 30px;
+  font-family: 'Leckerli One', cursive;
+  font-size: 30px;
+}
+
+.card-e-ticket h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.card-e-ticket .gallery-ticket {
+  margin-bottom: 30px;
+}
+
+.card-e-ticket .gallery-ticket .ticket-photo {
+  height: 750px;
+  width: 950px;
+}
+
+.card-e-ticket .nama-orang p {
+  margin-left: 75px;
+}
+
+.card-e-ticket .nama-orang h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 75px;
+}
+
+.card-e-ticket .member-ticket1 h2 {
+  margin-left: 75px;
+}
+
+.card-e-ticket .data-orang {
+  margin-left: 75px;
+  margin-bottom: 30px;
+}
+
+.card-e-ticket .data-orang th {
+  font-weight: normal;
+}
+
+.card-e-ticket .member-ticket2 {
+  margin-left: 75px;
+}
+
+.card-e-ticket .data-travel {
+  margin-left: 75px;
+  margin-bottom: 30px;
+}
+
+.card-e-ticket .data-travel th {
+  font-weight: normal;
+}
+
+.card-e-ticket .btn-ibu {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: #FF9317;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.card-e-ticket .btn-ibu:hover {
+  background-color: #FFAA48;
+  color: #ffffff;
+}
+
+.main-warna {
+  background-color: #2D1A09;
+}
+
+.main-warna .card-photo .gallery-gambar-login {
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.main-warna .card-photo .gallery-gambar-login h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.main-warna .card-photo .gallery-gambar-login .login-photo1 {
+  margin-bottom: 10px;
+}
+
+.main-warna .card-photo .gallery-gambar-login .login-photo2 {
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.main-warna .card-photo .gallery-gambar-login .login-photo3 {
+  margin-bottom: 20px;
+}
+
+.main-warna .card-photo .gallery-gambar-login .login-photo4 {
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.main-warna .card-photo .gallery-gambar-login .login-photo5 {
+  margin-right: 20px;
+}
+
+.main-warna .card-photo .gallery-gambar-login .login-photo6 {
+  margin-right: 20px;
+}
+
+.kartu-masuk {
+  margin-left: -250px;
+  margin-top: 27%;
+}
+
+.kartu-masuk .card-login h1 {
+  margin-top: 30px;
+  font-family: 'Leckerli One', cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.kartu-masuk .card-login h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.kartu-masuk .card-login .form-inline {
+  margin-left: 30px;
+}
+
+.kartu-masuk .card-login .btn-login-account {
+  background-color: #FF9317;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.kartu-masuk .card-login .lupa-kode {
+  margin-left: 33px;
+  font-size: 12px;
+}
+/*# sourceMappingURL=main.css.map */
